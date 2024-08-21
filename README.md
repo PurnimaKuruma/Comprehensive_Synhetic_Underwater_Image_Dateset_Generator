@@ -8,6 +8,7 @@ To execute:
 2. The ground truth image is given in lie no. 6.
 3. If you want to change the ground truth image (input image), you may do so in line no. 6.
 4. Just run the run.m
+5. Additinal Ground truth images may be collected from the associated data at Mendeley. https://data.mendeley.com/datasets/2mcwfc5dvs/2
 
 Output:
 
@@ -16,3 +17,4 @@ Output:
 3. For each input image, an excel file named fm_deg will also be genrated.
 4. The size is 21x150. the rows correspongs to one of the focus metrics in the order ACMO   BREN    CURV    GDER    GLVA    GLLV    GLVN    GRAS    HELM    HISE    HISR    LAPE    LAPD    LAPM    LAPV    TENG    TENV    VOLA    WAVR    WAVS    WAVV
 5. The 150 columns are for the 15 effects. The first 10 columns are for the first effect. These are levels of severity of underwater environment. The 15 effects are 1. Only color cast 2. Only blurring 3. Only low-light conditions, 4. Only contrast reduction, 5. Both color cast and blurring, 6. Both color cast and low-light, 7. Both color cast and contrast reduction, 8. Both blurring and low-light, 9. Both blurring and contrast reduction, 10. Both low-light and contrast reduction, 11. Color cast, blurring, and low-light, 12. Color cast, blurring, and contrast reduction, 13.Color cast, low-light, and contrast reduction, 14. Blurring, low-light, and contrast reduction, 15. Color cast, blurring, low-light, and contrast reduction.                                                                           
+6. The results of 100 ground truth images can be found at https://data.mendeley.com/datasets/2mcwfc5dvs/2
